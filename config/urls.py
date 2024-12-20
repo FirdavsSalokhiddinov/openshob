@@ -9,3 +9,5 @@ urlpatterns = [
     path('core/', include('core.urls')),
     path('api/', include('product.urls')),
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
