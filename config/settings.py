@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-+^+cd@@rs@6@+r5$8%izr04l&6@kh@mdhekouxpc^37cll(2+0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["openshop-api.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
