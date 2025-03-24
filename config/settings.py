@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'openshop',
-        'USER': 'root',
-        'PASSWORD': 'vYs0SLg9qjHK2AfnsvZdmvybi3GgOSnw',
-        'HOST': 'dpg-ctiqi3rqf0us73976tdg-a.oregon-postgres.render.com',  # Use the external hostname
+        'NAME': 'openshop_postgresql',
+        'USER': 'openshop_postgresql_user',
+        'PASSWORD': 'RHkQdNXiDq2k8hgvdLkoHN07HYiU5GkQ',
+        'HOST': 'dpg-cvge0i0gph6c73bjemdg-a.oregon-postgres.render.com',  # Use the external hostname
         'PORT': '5432',
     }
 }
